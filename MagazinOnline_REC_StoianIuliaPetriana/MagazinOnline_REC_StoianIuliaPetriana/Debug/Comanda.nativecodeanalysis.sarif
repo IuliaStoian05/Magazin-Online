@@ -1,0 +1,1416 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'produse'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 3,
+                  "endLine": 30,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::{ctor}",
+                  "decoratedName": "??0Comanda@@QAE@PAVProdus@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 65
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 90
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at c:\\users\\iulia\\source\\repos\\magazinonline_rec_stoianiuliapetriana\\magazinonline_rec_stoianiuliapetriana\\produs.h:60)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'produse[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->produse'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 3,
+                  "endLine": 30,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::{ctor}",
+                  "decoratedName": "??0Comanda@@QAE@PAVProdus@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 65
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 90
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at c:\\users\\iulia\\source\\repos\\magazinonline_rec_stoianiuliapetriana\\magazinonline_rec_stoianiuliapetriana\\produs.h:60)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'produse[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Comanda::indexProdusCurent' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::{ctor}",
+                  "decoratedName": "??0Comanda@@QAE@PAVProdus@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Comanda::indexProdusCurent"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'produse'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 3,
+                  "endLine": 38,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::{ctor}",
+                  "decoratedName": "??0Comanda@@QAE@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at c:\\users\\iulia\\source\\repos\\magazinonline_rec_stoianiuliapetriana\\magazinonline_rec_stoianiuliapetriana\\produs.h:60)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'produse[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->produse'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 3,
+                  "endLine": 38,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::{ctor}",
+                  "decoratedName": "??0Comanda@@QAE@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 93
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at c:\\users\\iulia\\source\\repos\\magazinonline_rec_stoianiuliapetriana\\magazinonline_rec_stoianiuliapetriana\\produs.h:60)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'produse[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Comanda::indexProdusCurent' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::{ctor}",
+                  "decoratedName": "??0Comanda@@QAE@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Comanda::indexProdusCurent"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'produse'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 3,
+                  "endLine": 46,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::{ctor}",
+                  "decoratedName": "??0Comanda@@QAE@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 79
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at c:\\users\\iulia\\source\\repos\\magazinonline_rec_stoianiuliapetriana\\magazinonline_rec_stoianiuliapetriana\\produs.h:60)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'produse[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'produse'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 4,
+                  "endLine": 58,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Comanda::=",
+                  "decoratedName": "??4Comanda@@QAEAAV0@ABV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'this!=&c')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<=indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 43
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<=indexProdusCurent')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at c:\\users\\iulia\\source\\repos\\magazinonline_rec_stoianiuliapetriana\\magazinonline_rec_stoianiuliapetriana\\produs.h:60)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'produse[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/iulia/source/repos/MagazinOnline_REC_StoianIuliaPetriana/MagazinOnline_REC_StoianIuliaPetriana/Comanda.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b6f83fdb6cd19d2d86525954eb6f112b8c9ef57182eec561d53e00744a7977e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/iulia/source/repos/magazinonline_rec_stoianiuliapetriana/magazinonline_rec_stoianiuliapetriana/comanda.h"
+          },
+          "hashes": {
+            "sha-256": "a9669c5363ae38749fb89fbd35488cbeb59a65f2a7e6f50656939f6719642b14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/iulia/source/repos/magazinonline_rec_stoianiuliapetriana/magazinonline_rec_stoianiuliapetriana/produs.h"
+          },
+          "hashes": {
+            "sha-256": "bfff3c73ab6a04b6c72017a140415c29a2bbd5884ea40d36a1567ee99f9360aa"
+          }
+        }
+      ]
+    }
+  ]
+}

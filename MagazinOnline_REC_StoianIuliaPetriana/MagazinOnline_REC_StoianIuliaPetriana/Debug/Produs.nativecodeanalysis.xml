@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\iulia\source\repos\MagazinOnline_REC_StoianIuliaPetriana\MagazinOnline_REC_StoianIuliaPetriana\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Produs::inStoc' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Produs::inStoc</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\iulia\source\repos\MagazinOnline_REC_StoianIuliaPetriana\MagazinOnline_REC_StoianIuliaPetriana\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Produs::continut' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Produs::continut</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\iulia\source\repos\MagazinOnline_REC_StoianIuliaPetriana\MagazinOnline_REC_StoianIuliaPetriana\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Produs::pret' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Produs::pret</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

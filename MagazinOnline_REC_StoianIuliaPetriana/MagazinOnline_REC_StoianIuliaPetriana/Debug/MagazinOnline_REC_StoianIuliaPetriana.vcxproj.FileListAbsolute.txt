@@ -1,0 +1,2 @@
+C:\Users\iulia\source\repos\MagazinOnline_REC_StoianIuliaPetriana\Debug\MagazinOnline_REC_StoianIuliaPetriana.exe.lastcodeanalysissucceeded
+C:\Users\iulia\source\repos\MagazinOnline_REC_StoianIuliaPetriana\MagazinOnline_REC_StoianIuliaPetriana\Debug\NativeCodeAnalysis.read.1.tlog

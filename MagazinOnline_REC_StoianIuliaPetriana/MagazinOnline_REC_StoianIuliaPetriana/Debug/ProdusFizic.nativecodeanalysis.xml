@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\iulia\source\repos\MagazinOnline_REC_StoianIuliaPetriana\MagazinOnline_REC_StoianIuliaPetriana\</FILEPATH>
+      <FILENAME>ProdusFizic.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ProdusFizic::dimensiuni' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ProdusFizic::{ctor}</FUNCTION>
+    <DECORATED>??0ProdusFizic@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ProdusFizic::dimensiuni</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\iulia\source\repos\MagazinOnline_REC_StoianIuliaPetriana\MagazinOnline_REC_StoianIuliaPetriana\</FILEPATH>
+      <FILENAME>ProdusFizic.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ProdusFizic::greutateKg' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ProdusFizic::{ctor}</FUNCTION>
+    <DECORATED>??0ProdusFizic@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ProdusFizic::greutateKg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
